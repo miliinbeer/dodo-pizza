@@ -1,0 +1,185 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+  border: 1px red solid;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+.header {
+  margin-top: 25px;
+  height: 116px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.header__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #999;
+  font-size: 15px;
+  text-align: right;
+}
+.header__telephone {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.favorite {
+  margin-top: 30px;
+}
+.favorite__cards {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.favorite__arrow {
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  background: transparent;
+  background-size: cover;
+  background-image: url("../icons/arrow.webp");
+}
+.favorite__card {
+  cursor: pointer;
+  padding: 14px 0 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  width: 250px;
+  height: 104px;
+  font-size: 14px;
+  border-radius: 10px;
+  transition: 0.2s all;
+  background: #fff;
+  box-shadow: rgba(6, 5, 50, 0.15) 0px 4px 22px -6px;
+}
+.favorite__card img {
+  width: 76px;
+  height: 76px;
+}
+.favorite__card p:last-child {
+  font-size: 16px;
+  font-weight: 600;
+}
+.favorite__card:hover {
+  transition: 0.2s all;
+  box-shadow: rgba(6, 5, 50, 0.15) 0px 0px 12px -4px;
+}
+
+.pizza {
+  margin-top: 70px;
+}
+.pizza__cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pizza__card {
+  margin-bottom: 60px;
+  cursor: pointer;
+  position: relative;
+  width: 250px;
+  height: 370px;
+  border: 1px red solid;
+}
+.pizza__card img {
+  max-width: 100%;
+  height: 220px;
+  transition: 0.5s all;
+}
+.pizza__card img:hover {
+  margin-top: 5px;
+  transition: 0.5s all;
+}
+.pizza__card p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 600;
+}
+.pizza__card p:nth-child(2) {
+  color: #73798c;
+  font-size: 14px;
+}
+.pizza__card p:nth-child(3) {
+  position: absolute;
+  bottom: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 23px;
+}
+.navigation a {
+  color: #000;
+  font-size: 14px;
+  transition: 0.5s all;
+}
+.navigation a:hover {
+  color: #F96900;
+  transition: 0.5s all;
+}
+
+.button {
+  cursor: pointer;
+  padding: 9px 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 20px;
+  background: #F96900;
+  transition: 0.5s all;
+}
+.button:hover {
+  background-color: #ed5d08;
+  transition: 0.5s all;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.image-container {
+  height: 225px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,45 @@
+.favorite {
+  margin-top: 30px;
+  &__cards {
+    position: relative;
+    margin-top: 30px;
+    @include flex-between;
+    align-items: center;
+  }
+
+  &__arrow {
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    background: transparent;
+    background-size: cover;
+    background-image: url("../icons/arrow.webp");
+  }
+
+  &__card {
+    cursor: pointer;
+    padding: 14px 0 14px 18px;
+    @include flex-align;
+    gap: 22px;
+    width: 250px;
+    height: 104px;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: 0.2s all;
+    background: #fff;
+    box-shadow: rgba(6, 5, 50, 0.15) 0px 4px 22px -6px;
+
+    img {
+      width: 76px;
+      height: 76px;
+    }
+    p:last-child {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &:hover {
+      transition: 0.2s all;
+      box-shadow: rgba(6, 5, 50, 0.15) 0px 0px 12px -4px;
+    }
+  }
+}

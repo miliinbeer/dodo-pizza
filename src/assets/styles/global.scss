@@ -1,0 +1,14 @@
+@import "./config/config.scss";
+@import "./config/layout.scss";
+@import "./config/reset.scss";
+@import "./config/mixins.scss";
+@import "./config/variables.scss";
+
+@import "./sections/header.scss";
+@import "./sections/favorite.scss";
+@import "./sections/pizza.scss";
+
+@import "./blocks/navigation.scss";
+@import "./blocks/button.scss";
+@import "./blocks/image.scss";
+@import "./blocks/title.scss";
