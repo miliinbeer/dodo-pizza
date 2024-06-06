@@ -1,7 +1,8 @@
 import React from "react";
+import { Button } from "../ui/Button/Button";
 
 interface CardType {
-  onClick: () => void;
+  handlerCard: () => void;
   className: string;
   image_container: string;
   image: string;
@@ -9,10 +10,11 @@ interface CardType {
   title: string;
   description: string;
   price: string;
+  handlerButton: () => void;
 }
 
 export const Card = ({
-  onClick,
+  handlerCard,
   className,
   image_container,
   image,
@@ -20,17 +22,24 @@ export const Card = ({
   title,
   description,
   price,
+  handlerButton,
 }: CardType) => {
   return (
     <>
-      <div onClick={onClick} className={className}>
+      <div onClick={handlerCard} className={className}>
         <div className={image_container}>
           <img src={image} alt={alt} />
         </div>
         <div>
           <p>{title}</p>
           <p>{description}</p>
+
           <p>{price}</p>
+          <Button
+            onClick={handlerButton}
+            className="button"
+            children="Выбрать"
+          />
         </div>
       </div>
     </>

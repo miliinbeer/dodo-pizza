@@ -1,9 +1,8 @@
 import React from 'react'
 
-interface ButtonType {
+interface ButtonType extends React.PropsWithChildren {
   onClick: () => void,
   className: string,
-  children: string
 }
 
 export const Button = ({onClick, className ,children}: ButtonType) => {

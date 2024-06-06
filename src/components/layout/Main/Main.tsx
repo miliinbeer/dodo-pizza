@@ -1,7 +1,7 @@
 import React from "react";
 import { data } from "../../../assets/data/data";
 import { Card } from "../../Card/Card";
-import { Button } from "../../ui/Button/Button";
+// import { Button } from "../../ui/Button/Button";
 import banner from "../../../assets/images/banner.webp";
 
 export const Main = () => {
@@ -17,7 +17,7 @@ export const Main = () => {
           {newAndPopular.map((el, i) => (
             <Card
               key={i}
-              onClick={() => console.log("hi")}
+              handlerCard={() => console.log("Card")}
               className="favorite__card"
               image_container=""
               image={el.image}
@@ -25,6 +25,7 @@ export const Main = () => {
               title={el.name}
               description=""
               price={`от ${el.price} ₽`}
+              handlerButton={() => console.log("Button")}
             />
           ))}
         </div>
@@ -35,7 +36,7 @@ export const Main = () => {
           {pizza.map((el, i) => (
             <Card
               key={i}
-              onClick={() => console.log("hi")}
+              handlerCard={() => console.log("Card")}
               className="pizza__card"
               image_container="image-container"
               image={el.image}
@@ -43,6 +44,7 @@ export const Main = () => {
               title={el.name}
               description={el.description}
               price={`от ${el.price} ₽`}
+              handlerButton={() => console.log("Button")}
             />
           ))}
         </div>
