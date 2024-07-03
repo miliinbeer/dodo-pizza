@@ -19,7 +19,8 @@ const data = [
     price: 600,
     section: "Pizza",
     description: "Соберите свою пиццу 35 см с двумя разными вкусами",
-    favorite: false,
+    popular: false,
+    new: false,
   },
   {
     name: "Пепперони-сердце",
@@ -27,7 +28,8 @@ const data = [
     price: 625,
     section: "Pizza",
     description: "Пикантная пепперони, моцарелла, томатный соус",
-    favorite: false,
+    popular: false,
+    new: false
   },
   {
     name: "Пирог-сердце",
@@ -35,7 +37,8 @@ const data = [
     price: 625,
     section: "Pizza",
     description: "Ананасы, брусника, сгущенное молоко",
-    favorite: false,
+    popular: false,
+    new: false
   },
   {
     name: "Чиззи чеддер",
@@ -44,7 +47,8 @@ const data = [
     section: "Pizza",
     description:
       "Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы",
-    favorite: false,
+    popular: false,
+    new: true
   },
   {
     name: "Цыпленок блю чиз",
@@ -52,7 +56,8 @@ const data = [
     price: 445,
     section: "Pizza",
     description: "Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо",
-    favorite: false,
+    popular: false,
+    new: true
   },
   {
     name: "Нежный лосось",
@@ -60,7 +65,8 @@ const data = [
     price: 495,
     section: "Pizza",
     description: "Лосось, томаты черри, соус песто, моцарелла, соус альфредо",
-    favorite: true,
+    popular: true,
+    new: true
   },
   {
     name: "Сырная",
@@ -69,7 +75,8 @@ const data = [
     section: "Pizza",
     description:
       "Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо",
-    favorite: false,
+    popular: false,
+    new: true, 
   },
   {
     name: "Пепперони фреш",
@@ -78,7 +85,8 @@ const data = [
     section: "Pizza",
     description:
       "Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус",
-    favorite: false,
+    popular: false,
+    new: false
   },
   {
     name: "Цезарь",
@@ -86,7 +94,8 @@ const data = [
     price: 445,
     section: "Pizza",
     description: "",
-    favorite: true,
+    popular: true,
+    new: false
   },
   {
     name: "Карбонара",
@@ -95,7 +104,8 @@ const data = [
     section: "Pizza",
     description:
       "Бекон , сыры чеддер и пармезан , моцарелла, томаты , красный лук , чеснок , соус альфредо, итальянские травы ",
-    favorite: true,
+    popular: true,
+    new: false
   },
   {
     name: "2 пиццы",
@@ -103,7 +113,8 @@ const data = [
     price: 899,
     section: "Combo",
     description: "",
-    favorite: true,
+    popular: true,
+    new: false
   },
 ];
 

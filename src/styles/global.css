@@ -58,27 +58,20 @@ button {
 }
 .favorite__cards {
   position: relative;
-  margin-top: 30px;
+  padding: 30px 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  overflow-x: scroll;
+  gap: 20px;
 }
-.favorite__arrow {
-  cursor: pointer;
-  width: 34px;
-  height: 34px;
-  background: transparent;
-  background-size: cover;
-  background-image: url("../icons/arrow.webp");
+.favorite__cards::-webkit-scrollbar {
+  display: none;
 }
 .favorite__card {
   cursor: pointer;
-  padding: 14px 0 14px 18px;
+  padding: 14px 14px 14px 18px;
   display: flex;
   align-items: center;
   gap: 22px;
-  width: 250px;
-  height: 104px;
   font-size: 14px;
   border-radius: 10px;
   transition: 0.2s all;
@@ -88,6 +81,9 @@ button {
 .favorite__card img {
   width: 76px;
   height: 76px;
+}
+.favorite__card p {
+  width: 104px;
 }
 .favorite__card p:last-child {
   font-size: 16px;
@@ -102,7 +98,7 @@ button {
 }
 
 .pizza {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 .pizza__cards {
   margin-top: 40px;

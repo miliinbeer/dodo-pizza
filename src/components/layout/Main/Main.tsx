@@ -5,8 +5,10 @@ import { Card } from "../../Card/Card";
 import banner from "../../../assets/images/banner.webp";
 
 export const Main = () => {
-  const newAndPopular = data.filter((el) => el.favorite === true);
-  const pizza = data.filter((el)=> el.section === "Pizza")
+  const newAndPopular = data.reverse().filter(
+    (el) => el.new === true || el.popular === true
+  );
+  const pizza = data.filter((el) => el.section === "Pizza");
 
   return (
     <main>
