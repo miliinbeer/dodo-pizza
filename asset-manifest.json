@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dodo-pizza/static/css/main.22cbf44c.css",
+    "main.js": "/dodo-pizza/static/js/main.2bcd4a4a.js",
+    "static/media/banner.webp": "/dodo-pizza/static/media/banner.169da8e35d6a42578abd.webp",
+    "static/media/peperoni-fresh.webp": "/dodo-pizza/static/media/peperoni-fresh.82c086f2d9a7dadd77f8.webp",
+    "static/media/pie-heart.webp": "/dodo-pizza/static/media/pie-heart.7c483953ad11a1c6c025.webp",
+    "static/media/cheddar.webp": "/dodo-pizza/static/media/cheddar.a162ae79cfd782452f50.webp",
+    "static/media/blue-cheese.webp": "/dodo-pizza/static/media/blue-cheese.85ae55b1eb20c8681716.webp",
+    "static/media/salmon.webp": "/dodo-pizza/static/media/salmon.803beee760d76c8ab4f0.webp",
+    "static/media/peperoni-heart.webp": "/dodo-pizza/static/media/peperoni-heart.e842e7942d885dd8233d.webp",
+    "static/media/cheese.webp": "/dodo-pizza/static/media/cheese.1178045ece1d98169321.webp",
+    "static/media/halfs.webp": "/dodo-pizza/static/media/halfs.50cc1fe1256250088a4c.webp",
+    "static/media/two.webp": "/dodo-pizza/static/media/two.caaa3e5930a369540958.webp",
+    "static/media/carbonara.webp": "/dodo-pizza/static/media/carbonara.3a90ca187b0f4817f215.webp",
+    "static/media/cesar.webp": "/dodo-pizza/static/media/cesar.33568822cdf165f0791d.webp",
+    "static/media/logotype.webp": "/dodo-pizza/static/media/logotype.9ba3851626bca96b6f25.webp",
+    "index.html": "/dodo-pizza/index.html",
+    "main.22cbf44c.css.map": "/dodo-pizza/static/css/main.22cbf44c.css.map",
+    "main.2bcd4a4a.js.map": "/dodo-pizza/static/js/main.2bcd4a4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22cbf44c.css",
+    "static/js/main.2bcd4a4a.js"
+  ]
+}
