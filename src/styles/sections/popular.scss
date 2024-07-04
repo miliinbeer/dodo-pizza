@@ -1,0 +1,39 @@
+.popular {
+  &__cards {
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    padding: 0 0 70px 0;
+    gap: 20px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__card {
+    cursor: pointer;
+    padding: 14px 14px 14px 18px;
+    @include flex-align;
+
+    gap: 22px;
+    min-width: 250px;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: 0.2s all;
+    background: #fff;
+    box-shadow: rgba(6, 5, 50, 0.15) 0px 4px 22px -6px;
+
+    &-image {
+      width: 76px;
+      height: 76px;
+    }
+    &-price {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &:hover {
+      transition: 0.2s all;
+      box-shadow: rgba(6, 5, 50, 0.15) 0px 0px 12px -4px;
+    }
+  }
+}

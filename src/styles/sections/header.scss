@@ -3,6 +3,22 @@
   height: 116px;
   @include flex-between;
   flex-direction: column;
+  &__navigation  {
+    &-links {
+      @include flex-between;
+      gap: 23px;
+    }
+    &-link {
+      color: #000;
+      font-size: 14px;
+      transition: 0.5s all;
+      &:hover {
+        color: $accent-color;
+        transition: 0.5s all;
+      }
+    }
+  }
+
   &__item {
     @include flex-between;
     align-items: center;

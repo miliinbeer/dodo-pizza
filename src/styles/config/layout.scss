@@ -1,5 +1,11 @@
 .container {
   max-width: 1060px;
   margin: 0 auto;
+  padding: 0 auto;
   border: 1px red solid;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
 }

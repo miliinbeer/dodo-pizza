@@ -1,0 +1,19 @@
+.button {
+  &-primary {
+    color: white;
+    @include button;
+    background: $accent-color;
+    &:hover {
+      background: #ed5d08;
+    }
+  }
+  &-secondary {
+    color: #d15700;
+    @include button;
+    background: #fff0e6;
+
+    &:hover {
+      background: #ffd0b2;
+    }
+  }
+}
