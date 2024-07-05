@@ -26,16 +26,16 @@ export const Card = ({
   return (
     <>
       <div onClick={handlerCard} className={className}>
-        <div className={image_container}>
-          <img className="card__image image" src={image} alt={alt} />
-        </div>
         <div>
+          <div className={image_container}>
+            <img className="card__image image" src={image} alt={alt} />
+          </div>
           <p className="card__title">{title}</p>
           <p className="card__description">{description}</p>
-          <div className="card__items">
-            <p className="card__price">{price}</p>
-            <div>{button}</div>
-          </div>
+        </div>
+        <div className="card__items">
+          <p className="card__price">{price}</p>
+          <div>{button}</div>
         </div>
       </div>
     </>

@@ -2,11 +2,13 @@
 @import "./config/layout.scss";
 @import "./config/reset.scss";
 @import "./config/mixins.scss";
-@import "./config/variables.scss";
 
 @import "./sections/header.scss";
 @import "./sections/popular.scss";
-@import "./sections/pizza.scss";
+@import "./sections/footer.scss";
+@import "./sections/footer-navigation.scss";
+@import "./sections/footer-links.scss";
+@import "./sections/footer-contacts.scss";
 
 @import "./blocks/buttons.scss";
 @import "./blocks/image.scss";

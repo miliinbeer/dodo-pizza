@@ -1,0 +1,26 @@
+.footer {
+    &__navigation {
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    &-title {
+      margin-bottom: 10px;
+      color: #fff;
+      font-weight: 600;
+    }
+    &-links {
+      max-width: 166px;
+      @include flex-column;
+      gap: 9px;
+    }
+    &-link {
+      color: rgba(255, 255, 255, 0.7);
+      transition: 0.5s all;
+
+      &:hover {
+        color: rgba(255, 255, 255);
+        transition: 0.5s all;
+      }
+    }
+  }
+}

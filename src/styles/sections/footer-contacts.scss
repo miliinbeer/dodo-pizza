@@ -1,0 +1,32 @@
+.footer {
+  &__contacts {
+    margin-top: 40px;
+    padding-top: 40px;
+    @include flex-between;
+    align-items: center;
+    border-top: 1px rgba(255, 255, 255, 0.1) solid;
+    &-logotype {
+      max-width: 276px;
+      @include flex-between;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+    &-links {
+      @include flex-between;
+      gap: 20px;
+
+      a {
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+    &-icon {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px ;
+      background: rgba(255, 255, 255, 0.3);
+    }
+  }
+}

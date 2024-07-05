@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 134px;
+  padding: 50px 0;
+  background: #464c55;
+  &__items {
+    @include flex-between;
+  }
+  &__item {
+    @include flex-column;
+    gap: 90px;
+  }
+
+  &__info {
+    @include flex-between;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+
+    article {
+      max-width: 300px;
+      @include flex-column;
+      gap: 12px;
+    }
+    &-title {
+      color: #fff;
+      font-size: 26px;
+      font-weight: 600;
+    }
+  }
+}

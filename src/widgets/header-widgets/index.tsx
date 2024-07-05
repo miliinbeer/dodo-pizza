@@ -1,4 +1,4 @@
-import { Navigation } from "./ui/header-navigation";
+import { header_navigation } from "../../shared/assets/data/data";
 import logotype from "../../shared/assets/images/logotype.webp";
 
 export const Header = () => {
@@ -20,7 +20,17 @@ export const Header = () => {
         </a>
       </div>
       <div className="header__item">
-        <Navigation />
+        <nav className="header__navigation">
+          <ul className="header__navigation-links">
+            {header_navigation.map((el, i) => (
+              <li key={`${el.title}-${i}`}>
+                <a className="header__navigation-link" href={el.href}>
+                  {el.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
         <a
           className="header__button button-primary"
           onClick={() => console.log("hi")}

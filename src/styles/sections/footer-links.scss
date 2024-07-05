@@ -1,0 +1,39 @@
+.footer {
+  &__links {
+    text-align: right;
+    a {
+      @include flex-column;
+    }
+
+    &-apps {
+      display: flex;
+      gap: 5px;
+      img {
+        width: 136px;
+        height: 40px;
+      }
+    }
+    &-telephone {
+      margin: 29px 0 26px 0;
+      color: #fff;
+      font-size: 26px;
+      font-weight: 600;
+
+      p:last-child {
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+    &-mail {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.7);
+      transition: 0.5s all;
+
+      &:hover {
+        color: rgba(255, 255, 255);
+        transition: 0.5s all;
+      }
+    }
+  }
+}
